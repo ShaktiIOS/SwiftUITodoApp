@@ -1,0 +1,28 @@
+{
+  "source": "/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/View/AddTodoView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "New Todo"
+      },
+      {
+        "comment": "",
+        "key": "TODO"
+      },
+      {
+        "comment": "",
+        "key": "Priority"
+      },
+      {
+        "comment": "",
+        "key": "Save"
+      },
+      {
+        "comment": "",
+        "key": "OK"
+      }
+    ]
+  },
+  "version": 1
+}
