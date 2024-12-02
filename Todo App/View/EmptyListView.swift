@@ -28,7 +28,7 @@ struct EmptyListView: View {
     ]
     
     // THEME
-    @ObservedObject var theme = ThemeSettings()
+    @ObservedObject var theme = ThemeSettings.shared
     var themes: [Theme] = themeData
     
     // MARK: - BODY

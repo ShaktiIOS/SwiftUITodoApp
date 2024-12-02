@@ -21,7 +21,7 @@ struct ContentView: View {
     @State private var showingSettingsView: Bool = false
     
     // THEME
-    @ObservedObject var theme = ThemeSettings()
+    @ObservedObject var theme = ThemeSettings.shared
     var themes: [Theme] = themeData
     
     @FetchRequest(

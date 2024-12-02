@@ -16,7 +16,7 @@ struct SettingsView: View {
     // THEME
     
     let themes: [Theme] = themeData
-    @ObservedObject var theme = ThemeSettings()
+    @ObservedObject var theme = ThemeSettings.shared
     @State private var isThemeChanged: Bool = false
     
     // MARK: - FUNCTIONS
@@ -121,13 +121,6 @@ struct SettingsView: View {
                         }
                     }
                     .padding(.vertical, 1)
-                    .alert(isPresented: $isThemeChanged) {
-                        Alert(
-                            title: Text("SUCCESS!"),
-                            message: Text("App has been changed to the \(themes[self.theme.themeSettings].themeColor). Now close and restart it!"),
-                            dismissButton: .default(Text("OK"))
-                        )
-                    }
                     
                     // MARK: - SECTION 3
                     Section{
