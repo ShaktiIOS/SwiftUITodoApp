@@ -1,0 +1,40 @@
+{
+  "source": "/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/View/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings"
+      },
+      {
+        "comment": "",
+        "key": "Copyright © All rights reserved.\nBetter Apps ♡ Less Code"
+      },
+      {
+        "comment": "",
+        "key": "Choose the app icon"
+      },
+      {
+        "comment": "",
+        "key": "Choose the app theme"
+      },
+      {
+        "comment": "",
+        "key": "SUCCESS!"
+      },
+      {
+        "comment": "",
+        "key": "OK"
+      },
+      {
+        "comment": "",
+        "key": "Follow us on social media"
+      },
+      {
+        "comment": "",
+        "key": "About the application"
+      }
+    ]
+  },
+  "version": 1
+}

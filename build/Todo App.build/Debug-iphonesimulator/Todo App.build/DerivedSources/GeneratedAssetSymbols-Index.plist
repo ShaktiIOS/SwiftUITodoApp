@@ -3,9 +3,71 @@
 <plist version="1.0">
 <dict>
 	<key>colors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameColorBackground</string>
+			<key>relativePath</key>
+			<string>./Colors/ColorBackground.colorset</string>
+			<key>swiftSymbol</key>
+			<string>colorBackground</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameColorBase</string>
+			<key>relativePath</key>
+			<string>./Colors/ColorBase.colorset</string>
+			<key>swiftSymbol</key>
+			<string>colorBase</string>
+		</dict>
+	</array>
 	<key>images</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameIllustrationNo1</string>
+			<key>relativePath</key>
+			<string>./Illustrations/illustration-no1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>illustrationNo1</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameIllustrationNo2</string>
+			<key>relativePath</key>
+			<string>./Illustrations/illustration-no2.imageset</string>
+			<key>swiftSymbol</key>
+			<string>illustrationNo2</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameIllustrationNo3</string>
+			<key>relativePath</key>
+			<string>./Illustrations/illustration-no3.imageset</string>
+			<key>swiftSymbol</key>
+			<string>illustrationNo3</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/shakti/Desktop/SwiftUI_Udemy/TODO/Todo App/Todo App/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTodoAppLogo</string>
+			<key>relativePath</key>
+			<string>./LaunchScreen/todo-app-logo.imageset</string>
+			<key>swiftSymbol</key>
+			<string>todoAppLogo</string>
+		</dict>
+	</array>
 	<key>symbols</key>
 	<array/>
 </dict>

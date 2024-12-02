@@ -22,9 +22,13 @@ struct AddTodoView: View {
     @State private var errorTitle: String = ""
     @State private var errorMessage: String = ""
     
+    // THEME
+    @ObservedObject var theme = ThemeSettings()
+    var themes: [Theme] = themeData
+    
     // MARK: - BODY
     var body: some View {
-        NavigationView{
+        NavigationStack{
             VStack {
                 VStack(alignment: .leading, spacing: 20) {
                     // MARK: - TODO NAME
@@ -65,7 +69,7 @@ struct AddTodoView: View {
                     .font(.system(size: 24,weight: .bold, design: .default))
                     .padding()
                     .frame(minWidth: 0, maxWidth: .infinity)
-                    .background(Color.blue)
+                    .background(themes[self.theme.themeSettings].themeColor)
                     .clipShape(.rect(cornerRadius: 9))
                     .foregroundStyle(Color.white)
                 } //: VSTACK
@@ -91,6 +95,7 @@ struct AddTodoView: View {
                 Text(errorMessage)
             }
         } //: NAVIGATION
+        .tint(themes[self.theme.themeSettings].themeColor)
     }
 }
 
